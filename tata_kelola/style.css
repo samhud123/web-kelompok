@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background-color: #12b2c0;
+    width: 100%;
+    height: 100px;
+}
+
+.navbar-content{
+    padding: 40px 130px;
+}
+
+.navbar-content .logo{
+    float: left;
+}
+
+.link ul{
+    list-style: none;
+}
+
+.link ul li{
+    float: right;
+}
+
+.link ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 15px;
+}
+
+.header {
+    background-color: #12b2c0;
+    height: 100vh;
+}
+
+.header-content{
+    padding: 0px 130px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.header-content .judul {
+    margin: auto;
+    color: white;
+}
+
+.header-content .judul h1 {
+    margin-bottom: 30px;
+    font-size: 80px;
+    line-height: 70px;
+}
+
+.header-content .judul p{
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.image img{
+    width: 120%;
+}
+
+.container1{
+    padding: 0px 130px;
+}
+
+.content1{
+    font-size: 23px;
+    margin: 70px 0;
+    text-align: center;
+    color: rgb(99, 99, 99);
+}
+
+.container2{
+    padding: 20px 130px 50px 130px;
+    background-color: #d9fdfd;
+}
+
+.content2 h2{
+    font-size: 45px;
+    font-weight: bold;
+    color: #12b2c0;
+    text-align: center;
+    margin: 40px;
+}
+
+.content2 p{
+    font-size: 20px;
+    color: rgb(99, 99, 99);
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.content2 img{
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+.container3 {
+    padding: 80px 130px;
+}
+
+.container3 h2{
+    font-size: 45px;
+    color: #12b2c0;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.container3 p{
+    font-size: 23px;
+    color: rgb(99, 99, 99);
+    line-height: 40px;
+    text-align: justify;
+}
+
+.container3 ul li{
+    font-size: 23px;
+    color: rgb(99, 99, 99);
+    line-height: 40px;
+    margin-left: 25px;
+}
+
+.container3 ol li{
+    font-size: 23px;
+    color: rgb(99, 99, 99);
+    line-height: 40px;
+    margin-left: 25px;
+}
+
+b {
+    color: rgb(58, 58, 58);
+}
+
+.style-none{
+    list-style: none;
+    margin-left: -25px;
+}
+
+.mt-50{
+    margin-top: 50px;
+}
+
+.link-sosmed {
+    padding: 20px 130px;
+    height: 50px;
+    background-color: #12b2c0;
+}
+
+.link p{
+    color: white;
+    font-size: 12px;
+    float: left;
+}
+
+.sosmed ul li{
+    list-style: none;
+    float: right; 
+    margin: 0 10px;   
+    font-size: 20px;
+}
+
+.sosmed ul li a{
+    color: white;
+    padding: 10px 15px;
+    background-color: #2ebfc2;
+    border-radius: 50%;
+}
+
+.note1 {
+    padding: 20px 130px;
+    background-color: #08909c;
+}
+
+.thx p{
+    font-size: 12px;
+    color: white;
+}
+
+.note2 {
+    padding: 20px 130px;
+    background-color: #808080;
+}
+
+.note2 p{
+    font-size: 12px;
+    color: white;
+}

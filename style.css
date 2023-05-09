@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background-color: #12b2c0;
+    width: 100%;
+    height: 100px;
+}
+
+.navbar-content{
+    padding: 40px 130px;
+}
+
+.navbar-content .logo{
+    float: left;
+}
+
+.link ul{
+    list-style: none;
+}
+
+.link ul li{
+    float: right;
+}
+
+.link ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 15px;
+}
+
+.header {
+    background-color: #12b2c0;
+    height: 100vh;
+}
+
+.header-content{
+    padding: 0px 130px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.header-content .judul {
+    margin: auto;
+    color: white;
+}
+
+.header-content .judul h1 {
+    margin-bottom: 30px;
+    font-size: 80px;
+    line-height: 70px;
+}
+
+.header-content .judul p{
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.image img{
+    width: 120%;
+}
+
+.container{
+    padding: 50px 130px;
+}
+
+.paragraf{
+    font-size: 23px;
+    color: rgb(99, 99, 99);
+    line-height: 40px;
+    text-align: justify;
+}
+
+.visi-misi{
+    background-color: #12b2c0;
+    margin: 40px 100px;
+    border-radius: 25px;
+}
+
+.visi-misi .isi{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 70px 50px 0 50px;
+}
+
+.visi-misi .konten{
+    display: block;
+    margin: 0 100px;
+    color: white;
+    font-size: 20px;
+}
+
+.visi-misi .konten p{
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+.visi-misi .konten ul li{
+    line-height: 40px;
+}
+
+.visi-misi .konten h2 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.struktur{
+    background-color: #30ced0;
+    margin-top: 100px;
+}
+
+.struktur h1{
+    text-align: center;
+    font-size: 45px;
+    color: white;
+}
+
+.struktur img{
+    width: 100%;
+}
+
+.content-card{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.ceo .judul h2{
+    font-size: 45px;
+    color: #08909c;
+}
+
+.ceo .judul p{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.content-card .card img{
+    background-color: #12b2c0;
+    width: 250px;
+    height: 350px;
+    border: 3px solid #12b2c0;
+    border-radius: 25px;
+    transition: .4s;
+}
+
+.content-card .card img:hover{
+    cursor: pointer;
+    border: 3px solid #12b2c0;
+    background-color: white;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+/* Footer */
+.link-sosmed {
+    padding: 20px 130px;
+    height: 50px;
+    background-color: #12b2c0;
+}
+
+.link p{
+    color: white;
+    font-size: 12px;
+    float: left;
+}
+
+.sosmed ul li{
+    list-style: none;
+    float: right; 
+    margin: 0 10px;   
+    font-size: 20px;
+}
+
+.sosmed ul li a{
+    color: white;
+    padding: 10px 15px;
+    background-color: #2ebfc2;
+    border-radius: 50%;
+}
+
+.note1 {
+    padding: 20px 130px;
+    background-color: #08909c;
+}
+
+.thx p{
+    font-size: 12px;
+    color: white;
+}
+
+.note2 {
+    padding: 20px 130px;
+    background-color: #808080;
+}
+
+.note2 p{
+    font-size: 12px;
+    color: white;
+}
